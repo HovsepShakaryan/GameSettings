@@ -18,6 +18,7 @@
 		CEF09D89176324F90029FBB1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEF09D88176324F90029FBB1 /* Default-568h@2x.png */; };
 		CEF09D8C176324F90029FBB1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF09D8B176324F90029FBB1 /* ViewController.m */; };
 		CEF09D8F176324F90029FBB1 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEF09D8D176324F90029FBB1 /* ViewController.xib */; };
+		CEF09D97176325410029FBB1 /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF09D96176325410029FBB1 /* Settings.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		CEF09D8A176324F90029FBB1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CEF09D8B176324F90029FBB1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CEF09D8E176324F90029FBB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		CEF09D95176325410029FBB1 /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Settings.h; path = ../Settings.h; sourceTree = "<group>"; };
+		CEF09D96176325410029FBB1 /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Settings.m; path = ../Settings.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 				CEF09D82176324F90029FBB1 /* AppDelegate.m */,
 				CEF09D8A176324F90029FBB1 /* ViewController.h */,
 				CEF09D8B176324F90029FBB1 /* ViewController.m */,
+				CEF09D95176325410029FBB1 /* Settings.h */,
+				CEF09D96176325410029FBB1 /* Settings.m */,
 				CEF09D8D176324F90029FBB1 /* ViewController.xib */,
 				CEF09D79176324F90029FBB1 /* Supporting Files */,
 			);
@@ -176,6 +181,7 @@
 				CEF09D7F176324F90029FBB1 /* main.m in Sources */,
 				CEF09D83176324F90029FBB1 /* AppDelegate.m in Sources */,
 				CEF09D8C176324F90029FBB1 /* ViewController.m in Sources */,
+				CEF09D97176325410029FBB1 /* Settings.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
